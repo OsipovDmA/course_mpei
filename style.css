@@ -1,0 +1,71 @@
+body {    
+    background: url(img/phone.jpg) no-repeat;
+}
+
+.menusec {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+.menusec > div{
+    width: 40%;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.menusec div:hover:after {
+    content: ">>";
+    color: red;
+}
+
+.h {
+    color: rgb(212, 20, 20);
+    background-color: #ccc;
+    border: 4px solid black;
+    text-align: center;    
+}
+.heading {
+    color: darkblue;
+    background-color: #ccc;
+    border: 4px solid black;
+    text-align: center;
+}
+.text {
+   text-align: justify; 
+   text-indent: 40px;
+   font-size: 20px;
+}
+.text::first-letter {
+    font-size: 30px;
+    color: brown;
+}
+
+.par {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 100%;    
+}
+
+.list > li {
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+}
+
+img[alt="phone"] {
+    border: 4px solid green;
+}
+
+.link{
+    text-decoration: none;
+}
+.menusec div a:hover {
+    color: red;
+}
+
+.menusec div a:active {
+    color: green;
+}
